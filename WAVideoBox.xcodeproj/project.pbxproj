@@ -34,6 +34,7 @@
 		3B90283821E1FF22001B1497 /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3B90283321E1FF22001B1497 /* nature.mp4 */; };
 		3BCAF55621E72B8000663097 /* test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BCAF55521E72B8000663097 /* test2.mp4 */; };
 		3BD923AA21E44D8F007D85B8 /* test1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD923A921E44D8F007D85B8 /* test1.mp4 */; };
+		E43E6F47232E27BB0025C062 /* WAAVSECropCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E43E6F46232E27BA0025C062 /* WAAVSECropCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		3B90283321E1FF22001B1497 /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.mp4; sourceTree = "<group>"; };
 		3BCAF55521E72B8000663097 /* test2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.mp4; sourceTree = "<group>"; };
 		3BD923A921E44D8F007D85B8 /* test1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.mp4; sourceTree = "<group>"; };
+		E43E6F45232E27BA0025C062 /* WAAVSECropCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAAVSECropCommand.h; sourceTree = "<group>"; };
+		E43E6F46232E27BA0025C062 /* WAAVSECropCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAAVSECropCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,8 @@
 		3B9027FF21E1F2F3001B1497 /* WAAVSeCommand */ = {
 			isa = PBXGroup;
 			children = (
+				E43E6F45232E27BA0025C062 /* WAAVSECropCommand.h */,
+				E43E6F46232E27BA0025C062 /* WAAVSECropCommand.m */,
 				3B90280A21E1F2F3001B1497 /* WAAVSEComposition.h */,
 				3B90281521E1F2F3001B1497 /* WAAVSEComposition.m */,
 				3B90280221E1F2F3001B1497 /* WAAVSECommand.h */,
@@ -387,6 +392,7 @@
 				3B222FF921E863DC0056CE83 /* WAAVSEExtractSoundCommand.m in Sources */,
 				3B90282121E1F2F3001B1497 /* WAAVSEReplaceSoundCommand.m in Sources */,
 				3B9027DB21E1F2E9001B1497 /* main.m in Sources */,
+				E43E6F47232E27BB0025C062 /* WAAVSECropCommand.m in Sources */,
 				3B90281B21E1F2F3001B1497 /* WAAVSEGearboxCommand.m in Sources */,
 				3B90281D21E1F2F3001B1497 /* WAAVSERotateCommand.m in Sources */,
 				3B9027CD21E1F2E7001B1497 /* AppDelegate.m in Sources */,
